@@ -7,9 +7,4 @@
 #
 # 2. If you add new packages later, update this file with:
 #    pip freeze > requirements.txt
-requests
-beautifulsoup4
-python-dotenv
-openai
-fastapi
-uvicorn
+
