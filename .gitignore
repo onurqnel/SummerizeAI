@@ -1,0 +1,125 @@
+# Byte‑compiled / DLLs
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Packaging / build
+.Python
+build/
+dist/
+python‑wheel‑metadata/
+wheels/
+share/python‑wheels/
+develop-eggs/
+.eggs/
+*.egg-info/
+*.egg
+MANIFEST
+sdist/
+var/
+lib*/          
+parts/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Virtual‑envs & environment managers
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pdm-python
+.pdm.toml
+.pdm-build/
+__pypackages__/
+
+# Test / coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache         
+.pytest_cache/
+.nox/
+.tox/
+.dmypy.json
+dmypy.json
+.mypy_cache/
+.pyre/
+.pytype/
+.hypothesis/
+.cover/
+
+# Linters / formatters
+.ruff_cache/
+
+# Notebook & IPython
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# Django / Flask
+*.log
+local_settings.py
+instance/
+.webassets-cache
+db.sqlite3*
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Dependency directories
+node_modules/
+.pnpm-store/
+.npm/
+
+# Vite build & cache
+dist/           
+dist-ssr/
+.vite/
+coverage/      
+.eslintcache
+
+# Local env & host overrides
+.env.*
+!.env.example         
+*.local
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json   
+
+# JetBrains IDEs
+.idea/
+
+# Misc editors
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.ropeproject
+.spyderproject
+.spyproject
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+docs/_build/
+.pybuilder/
+target/
+site/
